@@ -1,6 +1,6 @@
 // Gerado automaticamente por scripts/gerar-sw.mjs
-const CACHE = 'lancamentos-3d6ff537aa7b';
-const ARQUIVOS = ["./","./assets/ia-BRQUWn8D.js","./assets/index-B1NUJBks.js","./assets/index-B4BWyYsx.js","./assets/index-ByIkpFvj.css","./assets/index-DE-xiR4o.js","./assets/index-DgvX7Flt.js","./assets/index-Dzdpm1Ht.js","./assets/index-bx07J02U.js","./assets/node.browser-Bj-WsVsN.js","./assets/node.browser-CrdUOca9.js","./assets/ocr-DDMru0SR.js","./assets/web-CrDhm-d-.js","./assets/web-D4MLx1e7.js","./assets/web-Dqwy1Yoy.js","./icone-192.png","./icone-512.png","./icone.svg","./index.html","./manifest.webmanifest","./tesseract/lang/por.traineddata.gz","./tesseract/tesseract-core-lstm.wasm.js","./tesseract/tesseract-core-simd-lstm.wasm.js","./tesseract/worker.min.js"];
+const CACHE = 'lancamentos-139b068eb99e';
+const ARQUIVOS = ["./","./assets/ia-uon8_1hD.js","./assets/index-BTSkDaNA.js","./assets/index-ByIkpFvj.css","./assets/index-Cx_fC-bn.js","./assets/index-D989pyAw.js","./assets/index-DYS4k5cM.js","./assets/index-DgvX7Flt.js","./assets/index-Di2iXBgn.js","./assets/node.browser-BrA6ffNL.js","./assets/node.browser-CFB08NGG.js","./assets/ocr-hQvQ1qq7.js","./assets/web-CEqoP0cj.js","./assets/web-CHt1iZ57.js","./assets/web-CkjgiYrU.js","./icone-192.png","./icone-512.png","./icone.svg","./index.html","./manifest.webmanifest","./tesseract/lang/por.traineddata.gz","./tesseract/tesseract-core-lstm.wasm.js","./tesseract/tesseract-core-simd-lstm.wasm.js","./tesseract/worker.min.js"];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ARQUIVOS)).then(() => self.skipWaiting()));
 });
