@@ -1,6 +1,6 @@
 // Gerado automaticamente por scripts/gerar-sw.mjs
-const CACHE = 'lancamentos-22fc1e20178d';
-const ARQUIVOS = ["./","./assets/index-0jIUYJsO.js","./assets/index-672fBsSU.js","./assets/index-B76iBxo3.css","./assets/index-_uJfiV-z.js","./assets/index-ga2R6jYt.js","./assets/web-CO4Jwt3D.js","./assets/web-CS16ZzUP.js","./assets/web-lz4iTKoC.js","./icone-192.png","./icone-512.png","./icone.svg","./index.html","./manifest.webmanifest"];
+const CACHE = 'lancamentos-62ef35e46c2a';
+const ARQUIVOS = ["./","./assets/index-B2MAdq0O.js","./assets/index-B76iBxo3.css","./assets/index-Bv9UZABd.js","./assets/index-DSyNeA11.js","./assets/index-lZHJlzZ9.js","./assets/web-ByNZCmv0.js","./assets/web-C-4M0TDM.js","./assets/web-DoP-HlCh.js","./icone-192.png","./icone-512.png","./icone.svg","./index.html","./manifest.webmanifest"];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ARQUIVOS)).then(() => self.skipWaiting()));
 });
